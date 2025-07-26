@@ -23,7 +23,9 @@ A fully functional text translator built with **React** and **Tailwind CSS**, al
 - Axios
 - RapidAPI
 - React Hooks: `useState`, `useEffect`
-
+- Add your RapidAPI key in a .env file:
+- ```bash
+  VITE_RAPID_API_KEY=your_api_key_here
 ---
 
 ### 2️⃣ Random String Generator
@@ -71,4 +73,45 @@ Each project is structured as an individual React app with its own dependencies 
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/your-username/codexintern-projects.git
-   cd codexintern-projects
+   cd codexinterntask
+
+   cd translator-app       # or random-string-app / codexintern-routing
+   npm install
+   npm start               # or npm run dev if using Vite
+
+---
+
+## 📚 Learning Outcomes
+
+Through the completion of these projects, I enhanced my understanding of:
+
+- Integrating third-party APIs using Axios and managing keys securely with `.env` files
+- Using modern React Hooks (`useState`, `useEffect`, `useCallback`) effectively
+- Implementing responsive UI components using Tailwind CSS
+- Setting up client-side routing using `react-router-dom` for single-page applications
+
+These projects reflect practical applications of core React concepts in real-world scenarios.
+
+---
+
+## 🧑‍💻 Author
+
+**Tushar Aggarwal**  
+- GitHub: [@Son904511](https://github.com/Son904511)  
+- LinkedIn: [linkedin.com/in/tushar-aggarwal](https://www.linkedin.com/in/tushar-aggarwal-380734289/)  
+
+---
+
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 🌟 Acknowledgements
+
+- Special thanks to **CodexIntern** for the opportunity and well-structured task flow.
+- Thanks to the open-source community for tools and inspiration.
+
+> ⭐ If you found these projects helpful or inspiring, please consider starring the repository!
+
